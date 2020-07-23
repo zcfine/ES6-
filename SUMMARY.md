@@ -5,4 +5,5 @@
 * [一篇不错的整理](bu-cuo.md)
 * [let const](let-const.md)
 * [解构表达式](jie-gou-biao-da-shi.md)
+* [函数优化](han-shu-you-hua.md)
 

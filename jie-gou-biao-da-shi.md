@@ -1,7 +1,7 @@
 数组解构
 
 ```js
-let arr = [1,2,3];
+let arr = [1,2,3];
 
 //es5
 let a = arr[0];
@@ -22,9 +22,9 @@ const person = {
 }
 
 //es5
-const name = person.name;
-const age = person.age;
-const language = person.language;
+const name = person.name;
+const age = person.age;
+const language = person.language;
 
 //es6
 const { name: abc, age, language } = person;
@@ -44,8 +44,13 @@ console.log(str.includes("hello"));//true
 字符串模板
 
 ```js
-let age = '18';
+let age = 18;
 let str = `小明今年${age}岁`
+
+function fun() {
+    return "这是一个函数"
+}
+let info = `小明今年${age + 10}了, 我想说： ${fun()}`;
 ```
 
 
